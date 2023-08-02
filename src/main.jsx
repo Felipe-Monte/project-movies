@@ -5,8 +5,7 @@ import { ThemeProvider } from 'styled-components'
 import GlobalStyle from './styles/global'
 import theme from './styles/theme'
 
-
-import { App } from './App.jsx'
+import { App } from './pages/App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -14,5 +13,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <GlobalStyle />
       <App />
     </ThemeProvider>
-  </React.StrictMode>,
+  </React.StrictMode>
 )
