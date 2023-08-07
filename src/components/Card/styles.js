@@ -14,8 +14,6 @@ export const Container = styled.button`
 
  
   > h1 {
-    margin-bottom: 35px;
-
     color: ${({ theme }) => theme.COLORS.WHITE};
     font-size: 24px;
     font-weight: 700;

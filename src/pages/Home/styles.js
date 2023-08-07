@@ -35,4 +35,20 @@ export const Content = styled.div`
   /* padding: 0 123px; */
   height: 63vh;
   overflow-y: auto;
+
+
+  &::-webkit-scrollbar {
+    width:10px;
+    height: 10px;
+  }
+ 
+
+  &::-webkit-scrollbar-track {
+    background:#333;
+  } 
+ 
+
+  &::-webkit-scrollbar-thumb {
+    background: #2e9dd8;
+  }
 `
