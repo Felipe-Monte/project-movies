@@ -38,17 +38,17 @@ export const Content = styled.div`
 
 
   &::-webkit-scrollbar {
-    width:10px;
+    width: 10px;
     height: 10px;
   }
  
 
   &::-webkit-scrollbar-track {
-    background:#333;
+    background:${({ theme }) => theme.COLORS.BACKGROUND_900};
   } 
  
 
   &::-webkit-scrollbar-thumb {
-    background: #2e9dd8;
+    background:${({ theme }) => theme.COLORS.PINK};
   }
 `
